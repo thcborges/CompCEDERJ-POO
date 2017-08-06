@@ -46,9 +46,7 @@ class ClienteCC extends Conta {
   private float especial;
 
   ClienteCC (String nome, float especial) {
-    this.nome = nome;
-    this.conta = this.prox_conta++;
-    this.saldo = 0;
+    super(nome);
     this.especial = especial;
   }
   public float getEspecial() {
@@ -65,10 +63,8 @@ class ClientePoupanca extends Conta {
   private float taxa_juros;
 
   ClientePoupanca (String nome) {
-      this.nome = nome;
-      this.conta = this.prox_conta++;
-      this.saldo = 0;
-      this.taxa_juros = 1.0f;
+    super(nome);
+    this.taxa_juros = 1.0f;
   }
   public float TaxaJuros() {
     return this.taxa_juros;
@@ -81,20 +77,14 @@ class ClientePoupanca extends Conta {
 
 class ClientePF extends ClienteCC {
   ClientePF (String nome, float especial) {
-    this.nome = nome;
-    this.conta = this.prox_conta++;
-    this.saldo = 0;
-    this.especial = especial;
+    super(nome, especia;);
   }
 }
 
 
 class ClientePJ extends ClienteCC {
   ClientePJ (String nome, float especial) {
-    this.nome = nome;
-    this.conta = this.prox_conta++;
-    this.saldo = 0;
-    this.especial = especial;
+    super(nome, especial);
   }
 }
 

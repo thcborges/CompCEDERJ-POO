@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 .idea/
 
 
@@ -67,4 +70,8 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+<<<<<<< HEAD
 # End of https://www.gitignore.io/api/intellij
+=======
+# End of https://www.gitignore.io/api/intellij
+>>>>>>> origin/master

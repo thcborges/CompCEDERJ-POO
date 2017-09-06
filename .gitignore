@@ -4,6 +4,7 @@
 =======
 >>>>>>> origin/master
 .idea/
+*.class
 
 
 # Created by https://www.gitignore.io/api/intellij

@@ -1,4 +1,4 @@
-/**
+/*
  *
  *  Programaçao Orientada a Objetos - AD1 2017.2
  *
@@ -8,7 +8,7 @@
  */
 
 
- /**
+ /*
   *   CONSIDERAÇÕES:
   *   - Compilei e rodei corretamente o código no windows 10
   *   e em uma máquina virtual com Ubuntu 16.04.
@@ -35,7 +35,7 @@
 
 
 
-/**
+/*
  *  Classe Questão
  *
  *  Não fiz alterações nessa classe.
@@ -54,7 +54,7 @@ class Questao {
 }
 
 
-/**
+/*
  *  Classe Discursiva
  *
  *  Praticamente não alterei. Apenas coloquei um
@@ -83,7 +83,7 @@ class Discursiva extends Questao {
 
 
 
-/**
+/*
  *  Classe ItemVerdadeiroFalso
  *  Classe filha de Questao
  *
@@ -103,7 +103,7 @@ class ItemVerdadeiroFalso extends Questao{
         this.gabarito = gabarito;
     }
 
-    /**
+    /*
      *  Método getGabarito()
      *
      *  Retorna a resposta correta da questão
@@ -112,7 +112,7 @@ class ItemVerdadeiroFalso extends Questao{
         return this.gabarito;
     }
 
-    /**
+    /*
      *  Método toString() - Sobreescreve o método toString() da classe object
      *
      *  Retorna o enunciado da questão em formato de String.
@@ -126,7 +126,7 @@ class ItemVerdadeiroFalso extends Questao{
 
 
 
-/**
+/*
  *  Classe VerdadeiroFalso
  *  Classe filha de Questao
  *
@@ -148,7 +148,7 @@ class VerdadeiroFalso extends Questao{
     }
 
 
-    /**
+    /*
      *  Método toString() - Sobreescreve o método toString() da classe object
      *
      *  Retorna o enunciado da questão mais todos os itens da questão em formato de String.
@@ -164,7 +164,7 @@ class VerdadeiroFalso extends Questao{
 }
 
 
-/**
+/*
  *  Classe Prova
  *
  *  Implementada conforme pedido nas questões b) e c)
@@ -200,7 +200,7 @@ class Prova {
     }
 
 
-    /**
+    /*
      *   Método impressao()
      *
      *   Conforme pedido na questão c)
@@ -212,7 +212,7 @@ class Prova {
     }
 
 
-    /**
+    /*
      *  Método toString() - Sobreescreve o método toString() da classe object
      *
      *  Retorna o enunciado de cada questão da prova.
@@ -232,7 +232,7 @@ class Prova {
 }
 
 
-/**
+/*
  *  Classe principal
  *
  *  Conforme pedido na questão d)

@@ -78,3 +78,9 @@ fabric.properties
 # End of https://www.gitignore.io/api/intellij
 >>>>>>> origin/master
 /Projetos/
+/AD1/JavaFXApplication1/nbproject/private/
+/AD1/JavaFXApplication1/dist/
+/AD1/JavaFXApplication1/build/
+/AD1/JavaFXSwingApplication1/nbproject/private/
+/AD1/JavaFXApplication1/
+/AD1/JavaFXSwingApplication1/
